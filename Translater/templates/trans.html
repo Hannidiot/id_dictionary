@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Muji Translater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' href='../static/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='../static/css/style.css'>
+</head>
+<body>
+    <div class='container'>
+        <div class="page-header">
+            <h1>Muji Translater</h1>
+            <p class="lead">The <a style='font-size: 1px'>Least</a> Leading Translater of the World</p>
+        </div>
+
+        <div class="row">
+            <div class='col-md-6'>
+                <div class = 'cover'>
+                    <textarea id="input" class="form-control transp-area" style="height: auto" rows=5></textarea>
+                    <button type="button" class='btn btn-info' id='btnTrans'>翻译</button>
+                    <!-- <textarea id="after_trans"></textarea> -->
+                </div>
+            </div>
+            <!-- <div class='col-md-1'></div> -->
+            <div class='col-md-6'>
+                <span style="font-size:20px; font-family:'Courier New', Courier, monospace">百度:</span>
+                <textarea class='form-control' rows=4 id='baidu'></textarea>
+                <span style="font-size:20px; font-family:'Courier New', Courier, monospace">有道:</span>
+                <textarea class='form-control' rows=4 id='youdao'></textarea>
+                <span style="font-size:20px; font-family:'Courier New', Courier, monospace">金山:</span>
+                <textarea class='form-control' rows=4 id='jinshan'></textarea>
+                <span style="font-size:20px; font-family:'Courier New', Courier, monospace">谷歌:</span>
+                <textarea class='form-control' rows=4 id='google'></textarea>
+                <span style="font-size:20px; font-family:'Courier New', Courier, monospace">线下:</span>
+                <textarea class='form-control' rows=4 id='offline'></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../static/js/main.js"></script>
+<script type="text/javascript" src='../static/js/jquery-3.3.1.min.js'></script>
+<script type="text/javascript" src='../static/js/bootstrap.min.js'></script>
+
+</html>

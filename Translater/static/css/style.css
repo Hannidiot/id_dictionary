@@ -1,0 +1,33 @@
+.cover {
+    background-color: beige;
+    border-radius: 5%
+}
+
+.out-wrap {
+    background-color: #eee;
+    height: 120px;
+}
+
+.output-wrap {
+    padding: 10px;
+}
+
+.output {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wtf {
+    border:0;
+  	background-color:transparent;
+  	/*scrollbar-arrow-color:yellow;
+  	scrollbar-base-color:lightsalmon;
+  	overflow: hidden;*/
+  	color: #666464 !important;
+  	height: auto;
+}
+
+.my-head {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
